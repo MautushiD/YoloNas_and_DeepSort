@@ -1,0 +1,66 @@
+[2023-10-23 14:23:50] INFO - super_gradients.common.crash_handler.crash_tips_setup - Crash tips is enabled. You can set your environment variable to CRASH_HANDLER=FALSE to disable it
+[2023-10-23 14:23:50] DEBUG - matplotlib - matplotlib data path: /Users/mautushid/miniconda3/envs/myenv/lib/python3.9/site-packages/matplotlib/mpl-data
+[2023-10-23 14:23:50] DEBUG - matplotlib - CONFIGDIR=/Users/mautushid/.matplotlib
+[2023-10-23 14:23:50] DEBUG - matplotlib - interactive is False
+[2023-10-23 14:23:50] DEBUG - matplotlib - platform is darwin
+[2023-10-23 14:23:50] DEBUG - matplotlib - CACHEDIR=/Users/mautushid/.matplotlib
+[2023-10-23 14:23:50] DEBUG - matplotlib.font_manager - Using fontManager instance from /Users/mautushid/.matplotlib/fontlist-v330.json
+[2023-10-23 14:23:51] WARNING - torch.distributed.elastic.multiprocessing.redirects - NOTE: Redirects are currently not supported in Windows or MacOs.
+[2023-10-23 14:23:51] DEBUG - super_gradients.common.registry.albumentation - Failed to import albumentations
+[2023-10-23 14:23:51] DEBUG - pip._internal.vcs.versioncontrol - Registered VCS backend: bzr
+[2023-10-23 14:23:51] DEBUG - pip._internal.vcs.versioncontrol - Registered VCS backend: git
+[2023-10-23 14:23:51] DEBUG - pip._internal.vcs.versioncontrol - Registered VCS backend: hg
+[2023-10-23 14:23:51] DEBUG - pip._internal.vcs.versioncontrol - Registered VCS backend: svn
+[2023-10-23 14:23:52] DEBUG - super_gradients.common.sg_loggers.clearml_sg_logger - Failed to import clearml
+[2023-10-23 14:23:52] DEBUG - super_gradients.modules - Failed to import pytorch_quantization: cannot import name 'Bottleneck' from partially initialized module 'super_gradients.training.models.classification_models.resnet' (most likely due to a circular import) (/Users/mautushid/miniconda3/envs/myenv/lib/python3.9/site-packages/super_gradients/training/models/classification_models/resnet.py)
+[2023-10-23 14:23:52] DEBUG - hydra.core.utils - Setting JobRuntime:name=UNKNOWN_NAME
+[2023-10-23 14:23:52] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-10-23 14:23:52] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-10-23 14:23:52] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-10-23 14:23:52] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-10-23 14:23:52] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-10-23 14:23:52] WARNING - super_gradients.training.utils.quantization - Failed to import pytorch_quantization
+[2023-10-23 14:23:52] WARNING - super_gradients.training.utils.quantization.calibrator - Failed to import pytorch_quantization
+[2023-10-23 14:23:52] WARNING - super_gradients.training.utils.quantization.export - Failed to import pytorch_quantization
+[2023-10-23 14:23:52] WARNING - super_gradients.training.utils.quantization.selective_quantization_utils - Failed to import pytorch_quantization
+[2023-10-23 14:23:52] DEBUG - super_gradients.training.qat_trainer.qat_trainer - Failed to import pytorch_quantization:
+[2023-10-23 14:23:52] DEBUG - super_gradients.training.qat_trainer.qat_trainer - name 'QuantizedMetadata' is not defined
+[2023-10-23 14:23:52] WARNING - super_gradients.sanity_check.env_sanity_check - [31mFailed to verify operating system: Deci officially supports only Linux kernels. Some features may not work as expected.[0m
+[2023-10-23 14:23:52] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-10-23 14:23:52] INFO - super_gradients.training.utils.checkpoint_utils - License Notification: YOLO-NAS pre-trained weights are subjected to the specific license terms and conditions detailed in 
+https://github.com/Deci-AI/super-gradients/blob/master/LICENSE.YOLONAS.md
+By downloading the pre-trained weight files you agree to comply with these terms.
+[2023-10-23 14:23:52] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-10-23 14:23:52] WARNING - super_gradients.training.datasets.detection_datasets.yolo_format_detection - 1 images are note associated to any label file
+[2023-10-23 14:23:52] WARNING - super_gradients.training.datasets.detection_datasets.yolo_format_detection - As a consequence, 49/50 images and 49/49 label files will be used.
+[2023-10-23 14:23:53] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-10-23 14:23:53] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-10-23 14:23:53] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-10-23 14:23:53] INFO - super_gradients.training.utils.checkpoint_utils - License Notification: YOLO-NAS pre-trained weights are subjected to the specific license terms and conditions detailed in 
+https://github.com/Deci-AI/super-gradients/blob/master/LICENSE.YOLONAS.md
+By downloading the pre-trained weight files you agree to comply with these terms.
+[2023-10-23 14:23:54] INFO - super_gradients.training.sg_trainer.sg_trainer - Using EMA with params {'decay': 0.9, 'decay_type': 'threshold'}
+[2023-10-23 14:23:58] DEBUG - tensorflow - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+[2023-10-23 14:23:59] DEBUG - h5py._conv - Creating converter from 7 to 5
+[2023-10-23 14:23:59] DEBUG - h5py._conv - Creating converter from 5 to 7
+[2023-10-23 14:23:59] DEBUG - h5py._conv - Creating converter from 7 to 5
+[2023-10-23 14:23:59] DEBUG - h5py._conv - Creating converter from 5 to 7
+[2023-10-23 14:24:22] INFO - super_gradients.training.utils.sg_trainer_utils - TRAINING PARAMETERS:
+    - Mode:                         Single GPU
+    - Number of GPUs:               0          (0 available on the machine)
+    - Dataset size:                 49         (len(train_set))
+    - Batch size per GPU:           16         (batch_size)
+    - Batch Accumulate:             1          (batch_accumulate)
+    - Total batch size:             16         (num_gpus * batch_size)
+    - Effective Batch size:         16         (num_gpus * batch_size * batch_accumulate)
+    - Iterations per epoch:         3          (len(train_loader))
+    - Gradient updates per epoch:   3          (len(train_loader) / batch_accumulate)
+
+[2023-10-23 14:24:22] INFO - super_gradients.training.sg_trainer.sg_trainer - Started training for 5 epochs (0/4)
+
+[2023-10-23 14:27:08] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints/yolonas_AI/ckpt_best.pth
+[2023-10-23 14:27:08] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.01133600901812315
+[2023-10-23 14:30:09] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints/yolonas_AI/ckpt_best.pth
+[2023-10-23 14:30:09] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.07044921815395355
+[2023-10-23 14:38:38] INFO - super_gradients.training.sg_trainer.sg_trainer - RUNNING ADDITIONAL TEST ON THE AVERAGED MODEL...
+[2023-10-23 14:39:09] INFO - super_gradients.common.sg_loggers.base_sg_logger - [CLEANUP] - Successfully stopped system monitoring process
