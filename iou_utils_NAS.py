@@ -135,7 +135,7 @@ def bbox_iou(box1_xyxy, box2_xyxy):
     iou = inter_area / float(box1_area + box2_area - inter_area)
     return iou
 
-
+'''
 def draw_boxes_all_models(image_path, prediction_dict):
     # Load image
     image = cv2.imread(image_path)
@@ -198,7 +198,74 @@ def draw_boxes_all_models(image_path, prediction_dict):
     plt.imshow(image)
     plt.axis("off")
     plt.show()
+'''
 
+
+def draw_boxes_all_models(image_path, prediction_dict):
+    # Load image
+    image = cv2.imread(image_path)
+    image = cv2.cvtColor(
+        image, cv2.COLOR_BGR2RGB
+    )  # convert color space from BGR to RGB
+
+    # Set thickness for bounding boxes
+    thickness = 3
+
+    # Ground truth boxes
+    for box in prediction_dict["Ground_Truth_boxes"]:
+        x_min, y_min, x_max, y_max = map(int, box)
+        cv2.rectangle(
+            image, (x_min, y_min), (x_max, y_max), (255, 0, 0), thickness
+        )  # Red color
+
+    # Default model boxes
+    for box in prediction_dict["Default_YoloNas_boxes"]:
+        x_min, y_min, x_max, y_max = map(int, box)
+        cv2.rectangle(
+            image, (x_min, y_min), (x_max, y_max), (0, 0, 255), thickness
+        )  # Blue color
+
+    # Finetuned model boxes
+    for box in prediction_dict["Finetuned_YoloNas_boxes"]:
+        x_min, y_min, x_max, y_max = map(int, box)
+        cv2.rectangle(
+            image, (x_min, y_min), (x_max, y_max), (0, 255, 0), thickness
+        )  # Green color
+
+    # Add labels on top right corner
+    cv2.putText(
+        image,
+        "Ground Truth",
+        (image.shape[1] - 200, 20),
+        cv2.FONT_HERSHEY_SIMPLEX,
+        0.6,
+        (255, 0, 0),
+        2,
+    )
+    cv2.putText(
+        image,
+        "Default Model",
+        (image.shape[1] - 200, 40),
+        cv2.FONT_HERSHEY_SIMPLEX,
+        0.6,
+        (0, 0, 255),
+        2,
+    )
+    cv2.putText(
+        image,
+        "Finetuned Model",
+        (image.shape[1] - 200, 60),
+        cv2.FONT_HERSHEY_SIMPLEX,
+        0.6,
+        (0, 255, 0),
+        2,
+    )
+
+    # Show image
+    plt.figure(figsize=(10, 10))
+    plt.imshow(image)
+    plt.axis("off")
+    plt.show()
 
 def get_boxex_for_all_models(
     image_path, image_label, default_model, finetuned_model, conf=0.6
