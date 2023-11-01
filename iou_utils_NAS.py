@@ -209,56 +209,60 @@ def draw_boxes_all_models(image_path, prediction_dict):
     )  # convert color space from BGR to RGB
 
     # Set thickness for bounding boxes
-    thickness = 3
+    box_thickness = 3
 
     # Ground truth boxes
     for box in prediction_dict["Ground_Truth_boxes"]:
         x_min, y_min, x_max, y_max = map(int, box)
         cv2.rectangle(
-            image, (x_min, y_min), (x_max, y_max), (255, 0, 0), thickness
+            image, (x_min, y_min), (x_max, y_max), (255, 0, 0), box_thickness
         )  # Red color
 
     # Default model boxes
     for box in prediction_dict["Default_YoloNas_boxes"]:
         x_min, y_min, x_max, y_max = map(int, box)
         cv2.rectangle(
-            image, (x_min, y_min), (x_max, y_max), (0, 0, 255), thickness
+            image, (x_min, y_min), (x_max, y_max), (0, 0, 255), box_thickness
         )  # Blue color
 
     # Finetuned model boxes
     for box in prediction_dict["Finetuned_YoloNas_boxes"]:
         x_min, y_min, x_max, y_max = map(int, box)
         cv2.rectangle(
-            image, (x_min, y_min), (x_max, y_max), (0, 255, 0), thickness
+            image, (x_min, y_min), (x_max, y_max), (0, 255, 0), box_thickness
         )  # Green color
+
+    # Parameters for text size and boldness
+    font_scale = 1.3  # Increase for larger text
+    text_thickness = 4  # Increase for bolder text
 
     # Add labels on top right corner
     cv2.putText(
         image,
         "Ground Truth",
-        (image.shape[1] - 200, 20),
+        (image.shape[1] - 100, 20),
         cv2.FONT_HERSHEY_SIMPLEX,
-        0.6,
+        font_scale,
         (255, 0, 0),
-        2,
+        text_thickness,
     )
     cv2.putText(
         image,
         "Default Model",
-        (image.shape[1] - 200, 40),
+        (image.shape[1] - 100, 50),
         cv2.FONT_HERSHEY_SIMPLEX,
-        0.6,
+        font_scale,
         (0, 0, 255),
-        2,
+        text_thickness,
     )
     cv2.putText(
         image,
         "Finetuned Model",
-        (image.shape[1] - 200, 60),
+        (image.shape[1] - 100, 80),
         cv2.FONT_HERSHEY_SIMPLEX,
-        0.6,
+        font_scale,
         (0, 255, 0),
-        2,
+        text_thickness,
     )
 
     # Show image
