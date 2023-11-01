@@ -233,14 +233,14 @@ def draw_boxes_all_models(image_path, prediction_dict):
         )  # Green color
 
     # Parameters for text size and boldness
-    font_scale = 1.3  # Increase for larger text
+    font_scale = 1  # Increase for larger text
     text_thickness = 4  # Increase for bolder text
 
     # Add labels on top right corner
     cv2.putText(
         image,
         "Ground Truth",
-        (image.shape[1] - 100, 20),
+        (image.shape[1] - 300, 20),
         cv2.FONT_HERSHEY_SIMPLEX,
         font_scale,
         (255, 0, 0),
@@ -249,7 +249,7 @@ def draw_boxes_all_models(image_path, prediction_dict):
     cv2.putText(
         image,
         "Default Model",
-        (image.shape[1] - 100, 50),
+        (image.shape[1] - 300, 50),
         cv2.FONT_HERSHEY_SIMPLEX,
         font_scale,
         (0, 0, 255),
@@ -258,7 +258,7 @@ def draw_boxes_all_models(image_path, prediction_dict):
     cv2.putText(
         image,
         "Finetuned Model",
-        (image.shape[1] - 100, 80),
+        (image.shape[1] - 300, 80),
         cv2.FONT_HERSHEY_SIMPLEX,
         font_scale,
         (0, 255, 0),
