@@ -1,0 +1,47 @@
+============================================================
+New run started at 2023-11-29.15:21:04.110763
+sys.argv: "c:\Users\Admin\anaconda3\envs\mix_env\lib\site-packages\ipykernel_launcher.py --f=c:\Users\Admin\AppData\Roaming\jupyter\runtime\kernel-v2-2140rqfifxHrA6NE.json"
+============================================================
+The console stream is logged into C:\Users\Admin\sg_logs\console.log
+
+Indexing dataset annotations:   0%|          | 0/49 [00:00<?, ?it/s]
+Indexing dataset annotations:  10%|█         | 5/49 [00:00<00:01, 42.57it/s]
+Indexing dataset annotations:  24%|██▍       | 12/49 [00:00<00:00, 52.67it/s]
+Indexing dataset annotations:  39%|███▉      | 19/49 [00:00<00:00, 56.51it/s]
+Indexing dataset annotations:  51%|█████     | 25/49 [00:00<00:00, 56.19it/s]
+Indexing dataset annotations:  63%|██████▎   | 31/49 [00:00<00:00, 55.67it/s]
+Indexing dataset annotations:  76%|███████▌  | 37/49 [00:00<00:00, 57.01it/s]
+Indexing dataset annotations:  88%|████████▊ | 43/49 [00:00<00:00, 56.76it/s]
+Indexing dataset annotations: 100%|██████████| 49/49 [00:00<00:00, 56.52it/s]
+Indexing dataset annotations: 100%|██████████| 49/49 [00:00<00:00, 55.60it/s]
+
+Indexing dataset annotations:   0%|          | 0/20 [00:00<?, ?it/s]
+Indexing dataset annotations:  30%|███       | 6/20 [00:00<00:00, 57.00it/s]
+Indexing dataset annotations:  70%|███████   | 14/20 [00:00<00:00, 69.09it/s]
+Indexing dataset annotations: 100%|██████████| 20/20 [00:00<00:00, 69.46it/s]
+
+Indexing dataset annotations:   0%|          | 0/49 [00:00<?, ?it/s]
+Indexing dataset annotations: 100%|██████████| 49/49 [00:00<00:00, 2723.32it/s]
+
+Indexing dataset annotations:   0%|          | 0/20 [00:00<?, ?it/s]
+Indexing dataset annotations: 100%|██████████| 20/20 [00:00<00:00, 3312.91it/s]
+
+Indexing dataset annotations:   0%|          | 0/49 [00:00<?, ?it/s]
+Indexing dataset annotations: 100%|██████████| 49/49 [00:00<00:00, 2323.66it/s]
+
+Indexing dataset annotations:   0%|          | 0/20 [00:00<?, ?it/s]
+Indexing dataset annotations: 100%|██████████| 20/20 [00:00<00:00, 2004.69it/s]
+
+Indexing dataset annotations:   0%|          | 0/20 [00:00<?, ?it/s]
+Indexing dataset annotations:  30%|███       | 6/20 [00:00<00:00, 51.88it/s]
+Indexing dataset annotations:  60%|██████    | 12/20 [00:00<00:00, 54.37it/s]
+Indexing dataset annotations:  90%|█████████ | 18/20 [00:00<00:00, 54.55it/s]
+Indexing dataset annotations: 100%|██████████| 20/20 [00:00<00:00, 54.83it/s]
+The console stream is now moved to checkpoints\yolonas_AI\RUN_20231129_152324_969610/console_Nov29_15_23_24.txt
+[2023-11-29 15:23:25] INFO - sg_trainer.py - Using EMA with params {'decay': 0.9, 'decay_type': 'threshold'}
+c:\Users\Admin\anaconda3\envs\mix_env\lib\site-packages\super_gradients\common\registry\registry.py:72: DeprecationWarning: Object name `linear_epoch_step` is now deprecated. Please replace it with `LinearEpochLRWarmup`.
+  warnings.warn(f"Object name `{name}` is now deprecated. Please replace it with `{deprecated_names[name]}`.", DeprecationWarning)
+c:\Users\Admin\anaconda3\envs\mix_env\lib\site-packages\psutil\_pswindows.py:274: DeprecationWarning: getargs: The 'u' format is deprecated. Use 'U' instead.
+  total, free = cext.disk_usage(path)
+[2023-11-29 15:23:44] INFO - sg_trainer.py - Starting a new run with `run_id=RUN_20231129_152344_166402`
+[2023-11-29 15:23:44] INFO - sg_trainer.py - Checkpoints directory: checkpoints\yolonas_AI\RUN_20231129_152344_166402
