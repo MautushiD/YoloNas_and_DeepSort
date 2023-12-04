@@ -35,7 +35,7 @@ The dataset used is the SODA 10M dataset, which can be found at [SODA 2D officia
 To get started with this project, clone this repository using:
 
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/MautushiD/AI_project.git
 ```
 
 ## Prerequisites
