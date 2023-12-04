@@ -1,5 +1,6 @@
 # Autonomous Traffic Data Detection and Tracking
 
+
 ## Overview
 This repository contains the implementation of 2D object detection and tracking on traffic data, specifically using the SODA 10M dataset. We demonstrate fine-tuning the YOLO NAS model for object detection and applying the Deep SORT algorithm for 2D tracking of traffic data.
 
@@ -7,6 +8,8 @@ This repository contains the implementation of 2D object detection and tracking 
 The dataset used is the SODA 10M dataset, which can be found at [SODA 2D official website](https://soda-2d.github.io/index.html). It is designed for Autonomous traffic data analysis.
 
 ## Repository Structure
+
+
 
 .
 ├── checkpoints/yolonas_AI # Checkpoints for the YOLO NAS model
@@ -23,6 +26,7 @@ The dataset used is the SODA 10M dataset, which can be found at [SODA 2D officia
 └── video_predictions.yaml # Output predictions in YAML format
 
 
+
 ## Features
 - Fine-tuning of YOLO NAS model for autonomous traffic data detection.
 - 2D tracking using the Deep SORT algorithm.
@@ -34,27 +38,36 @@ To get started with this project, clone this repository using:
 
 ```bash
 git clone https://github.com/yourusername/your-repo-name.git
+```
+
+## Prerequisites
+python 3.10+
+numpy
+pandas
+scikit-learn
+matplotlib
+tensorflow
+torch
+super-gradients
+ultralytics
+pathlib
+yaml
+cv2
+torchvision
 
 
-Prerequisites
-Python 3.8+
-OpenCV
-PyTorch
-NumPy
-Matplotlib (for visualization)
-YAML
 
-
-
-Installation
+## Installation
 Install the required dependencies:
 
+```bash
 pip install -r requirements.txt
+```
+
+> Follow the instructions in each notebook to train the models and perform detection and tracking.
 
 
-Follow the instructions in each notebook to train the models and perform detection and tracking.
-Usage
-Train the YOLO NAS model:
+## Train the YOLO NAS model:
 Run the train_nas.ipynb notebook to train the model on the SODA 10M dataset.
 Detection and Tracking:
 Use detection_tracking_from_vedio.ipynb to perform detection and tracking on video data.
@@ -62,9 +75,9 @@ The output will be saved in ./test_video_output and ./video_predictions.yaml.
 Acknowledgements
 This project utilizes the SODA 10M dataset, obtained from the SODA 2D official website. We thank the creators for making the dataset publicly available for research purposes.
 
-Contributing
+## Contributing
 Contributions to this project are welcome. Please submit a pull request or create an issue for any features or improvements.
 
-License
+## License
 This project is open-sourced under the MIT License. See the LICENSE file for more details.
 
