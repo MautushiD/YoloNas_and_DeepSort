@@ -15,14 +15,14 @@ import cv2
 
 
 dataset_params = {
-    "data_dir": "data_directory",
-    "train_images_dir": "train/images",
-    "train_labels_dir": "train/labels",
-    "val_images_dir": "valid/images",
-    "val_labels_dir": "valid/labels",
-    "test_images_dir": "test/images",
-    "test_labels_dir": "test/labels",
-    "classes": ["cow"],
+    'data_dir': 'data',
+    'train_images_dir': 'train/train_img',
+    'train_labels_dir': 'train/trainyolo',
+    'val_images_dir': 'val/val_img',
+    'val_labels_dir': 'val/valyolo',
+    'test_images_dir': 'test/test_img',
+    'test_labels_dir': 'test/testyolo',
+    'classes': ['Pedestrian', 'Cyclist', 'Car', 'Truck', 'Tram',  'Tricycle'],
 }
 
 
