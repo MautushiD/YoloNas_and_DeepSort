@@ -11,16 +11,27 @@ The dataset used is the SODA 10M dataset, which can be found at [SODA 2D officia
 
 .
 ├── checkpoints/yolonas_AI # Checkpoints for the YOLO NAS model
+
 ├── data # Data used for training and testing models
+
 ├── deep_sort_pytorch # Deep SORT algorithm implementation
+
 ├── .gitignore # Specifies intentionally untracked files to ignore
+
 ├── README.md # The README file you are currently reading
+
 ├── detection_NAS_utils.py # Utility functions for YOLO NAS detection
+
 ├── detection_tracking_from_vedio.ipynb # Notebook for detection and tracking from video
+
 ├── nas_sort_utils.py # Utility functions for NAS and SORT integration
+
 ├── test_finetune_result.ipynb # Notebook for testing fine-tuning results
+
 ├── train_NAS_utils.py # Utility functions for training YOLO NAS
+
 ├── train_nas.ipynb # Notebook for training YOLO NAS
+
 └── video_predictions.yaml # Output predictions in YAML format
 
 
