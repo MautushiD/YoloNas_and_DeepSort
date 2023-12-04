@@ -42,17 +42,29 @@ git clone https://github.com/yourusername/your-repo-name.git
 
 ## Prerequisites
 python 3.10+
+
 numpy
+
 pandas
+
 scikit-learn
+
 matplotlib
+
 tensorflow
+
 torch
+
 super-gradients
+
 ultralytics
+
 pathlib
+
 yaml
+
 cv2
+
 torchvision
 
 
