@@ -8,9 +8,7 @@ This repository contains the implementation of 2D object detection and tracking 
 The dataset used is the SODA 10M dataset, which can be found at [SODA 2D official website](https://soda-2d.github.io/index.html). It is designed for Autonomous traffic data analysis.
 
 ## Repository Structure
-
-
-
+```
 .
 ├── checkpoints/yolonas_AI # Checkpoints for the YOLO NAS model
 ├── data # Data used for training and testing models
@@ -24,7 +22,7 @@ The dataset used is the SODA 10M dataset, which can be found at [SODA 2D officia
 ├── train_NAS_utils.py # Utility functions for training YOLO NAS
 ├── train_nas.ipynb # Notebook for training YOLO NAS
 └── video_predictions.yaml # Output predictions in YAML format
-
+```
 
 
 ## Features
