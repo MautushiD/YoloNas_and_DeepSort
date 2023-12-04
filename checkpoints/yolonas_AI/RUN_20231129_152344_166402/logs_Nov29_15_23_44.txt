@@ -1,0 +1,112 @@
+[2023-11-29 15:21:04] INFO - super_gradients.common.crash_handler.crash_tips_setup - Crash tips is enabled. You can set your environment variable to CRASH_HANDLER=FALSE to disable it
+[2023-11-29 15:21:04] WARNING - super_gradients.training.utils.quantization - Failed to import pytorch_quantization
+[2023-11-29 15:21:05] INFO - numexpr.utils - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-11-29 15:21:05] INFO - numexpr.utils - NumExpr defaulting to 8 threads.
+[2023-11-29 15:21:07] DEBUG - matplotlib - matplotlib data path: c:\Users\Admin\anaconda3\envs\mix_env\lib\site-packages\matplotlib\mpl-data
+[2023-11-29 15:21:07] DEBUG - matplotlib - CONFIGDIR=C:\Users\Admin\.matplotlib
+[2023-11-29 15:21:07] DEBUG - matplotlib - interactive is False
+[2023-11-29 15:21:07] DEBUG - matplotlib - platform is win32
+[2023-11-29 15:21:07] DEBUG - matplotlib - CACHEDIR=C:\Users\Admin\.matplotlib
+[2023-11-29 15:21:07] DEBUG - matplotlib.font_manager - Using fontManager instance from C:\Users\Admin\.matplotlib\fontlist-v330.json
+[2023-11-29 15:21:10] DEBUG - tensorflow - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+[2023-11-29 15:21:11] DEBUG - h5py._conv - Creating converter from 7 to 5
+[2023-11-29 15:21:11] DEBUG - h5py._conv - Creating converter from 5 to 7
+[2023-11-29 15:21:11] DEBUG - h5py._conv - Creating converter from 7 to 5
+[2023-11-29 15:21:11] DEBUG - h5py._conv - Creating converter from 5 to 7
+[2023-11-29 15:21:13] DEBUG - super_gradients.common.sg_loggers.clearml_sg_logger - Failed to import clearml
+[2023-11-29 15:21:13] DEBUG - super_gradients.common.registry.albumentation - Failed to import albumentations
+[2023-11-29 15:21:13] DEBUG - super_gradients.modules - Failed to import pytorch_quantization: cannot import name 'Bottleneck' from partially initialized module 'super_gradients.training.models.classification_models.resnet' (most likely due to a circular import) (c:\Users\Admin\anaconda3\envs\mix_env\lib\site-packages\super_gradients\training\models\classification_models\resnet.py)
+[2023-11-29 15:21:13] DEBUG - hydra.core.utils - Setting JobRuntime:name=UNKNOWN_NAME
+[2023-11-29 15:21:13] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-11-29 15:21:13] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-11-29 15:21:15] WARNING - super_gradients.training.utils.quantization.calibrator - Failed to import pytorch_quantization
+[2023-11-29 15:21:15] WARNING - super_gradients.training.utils.quantization.export - Failed to import pytorch_quantization
+[2023-11-29 15:21:15] WARNING - super_gradients.training.utils.quantization.selective_quantization_utils - Failed to import pytorch_quantization
+[2023-11-29 15:21:15] DEBUG - super_gradients.training.sg_trainer.sg_trainer - Failed to import pytorch_quantization:
+[2023-11-29 15:21:15] DEBUG - super_gradients.training.sg_trainer.sg_trainer - name 'QuantizedMetadata' is not defined
+[2023-11-29 15:21:15] WARNING - super_gradients.sanity_check.env_sanity_check - [31mFailed to verify operating system: Deci officially supports only Linux kernels. Some features may not work as expected.[0m
+[2023-11-29 15:21:15] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-11-29 15:21:16] INFO - super_gradients.training.utils.checkpoint_utils - License Notification: YOLO-NAS pre-trained weights are subjected to the specific license terms and conditions detailed in 
+https://github.com/Deci-AI/super-gradients/blob/master/LICENSE.YOLONAS.md
+By downloading the pre-trained weight files you agree to comply with these terms.
+[2023-11-29 15:21:16] INFO - super_gradients.training.utils.checkpoint_utils - Successfully loaded pretrained weights for architecture yolo_nas_l
+[2023-11-29 15:21:16] DEBUG - super_gradients.training.utils.checkpoint_utils - Trying to load preprocessing params from checkpoint. Preprocessing params in checkpoint: False. Model YoloNAS_L inherit HasPredict: True
+[2023-11-29 15:21:36] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-11-29 15:21:36] WARNING - super_gradients.training.datasets.detection_datasets.yolo_format_detection - 1 images are note associated to any label file
+[2023-11-29 15:21:36] WARNING - super_gradients.training.datasets.detection_datasets.yolo_format_detection - As a consequence, 49/50 images and 49/49 label files will be used.
+[2023-11-29 15:21:36] INFO - super_gradients.training.datasets.detection_datasets.detection_dataset - Dataset Initialization in progress. `cache_annotations=True` causes the process to take longer due to full dataset indexing.
+[2023-11-29 15:21:37] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-11-29 15:21:37] INFO - super_gradients.training.datasets.detection_datasets.detection_dataset - Dataset Initialization in progress. `cache_annotations=True` causes the process to take longer due to full dataset indexing.
+[2023-11-29 15:21:37] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-11-29 15:22:21] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-11-29 15:22:22] INFO - super_gradients.training.datasets.detection_datasets.detection_dataset - Dataset Initialization in progress. `cache_annotations=True` causes the process to take longer due to full dataset indexing.
+[2023-11-29 15:22:22] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-11-29 15:22:22] INFO - super_gradients.training.datasets.detection_datasets.detection_dataset - Dataset Initialization in progress. `cache_annotations=True` causes the process to take longer due to full dataset indexing.
+[2023-11-29 15:22:22] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-11-29 15:23:14] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-11-29 15:23:14] INFO - super_gradients.training.datasets.detection_datasets.detection_dataset - Dataset Initialization in progress. `cache_annotations=True` causes the process to take longer due to full dataset indexing.
+[2023-11-29 15:23:14] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-11-29 15:23:14] INFO - super_gradients.training.datasets.detection_datasets.detection_dataset - Dataset Initialization in progress. `cache_annotations=True` causes the process to take longer due to full dataset indexing.
+[2023-11-29 15:23:14] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-11-29 15:23:14] INFO - super_gradients.training.datasets.detection_datasets.detection_dataset - Dataset Initialization in progress. `cache_annotations=True` causes the process to take longer due to full dataset indexing.
+[2023-11-29 15:23:19] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-11-29 15:23:20] INFO - super_gradients.training.utils.checkpoint_utils - License Notification: YOLO-NAS pre-trained weights are subjected to the specific license terms and conditions detailed in 
+https://github.com/Deci-AI/super-gradients/blob/master/LICENSE.YOLONAS.md
+By downloading the pre-trained weight files you agree to comply with these terms.
+[2023-11-29 15:23:21] INFO - super_gradients.training.utils.checkpoint_utils - Successfully loaded pretrained weights for architecture yolo_nas_l
+[2023-11-29 15:23:21] DEBUG - super_gradients.training.utils.checkpoint_utils - Trying to load preprocessing params from checkpoint. Preprocessing params in checkpoint: False. Model YoloNAS_L inherit HasPredict: True
+[2023-11-29 15:23:24] INFO - super_gradients.training.sg_trainer.sg_trainer - Starting a new run with `run_id=RUN_20231129_152324_969610`
+[2023-11-29 15:23:24] INFO - super_gradients.training.sg_trainer.sg_trainer - Checkpoints directory: checkpoints\yolonas_AI\RUN_20231129_152324_969610
+[2023-11-29 15:23:25] INFO - super_gradients.training.sg_trainer.sg_trainer - Using EMA with params {'decay': 0.9, 'decay_type': 'threshold'}
+[2023-11-29 15:23:44] INFO - super_gradients.training.sg_trainer.sg_trainer - Starting a new run with `run_id=RUN_20231129_152344_166402`
+[2023-11-29 15:23:44] INFO - super_gradients.training.sg_trainer.sg_trainer - Checkpoints directory: checkpoints\yolonas_AI\RUN_20231129_152344_166402
+[2023-11-29 15:23:44] INFO - super_gradients.training.sg_trainer.sg_trainer - Using EMA with params {'decay': 0.9, 'decay_type': 'threshold'}
+[2023-11-29 15:24:00] INFO - super_gradients.training.utils.sg_trainer_utils - TRAINING PARAMETERS:
+    - Mode:                         Single GPU
+    - Number of GPUs:               0          (0 available on the machine)
+    - Full dataset size:            49         (len(train_set))
+    - Batch size per GPU:           7          (batch_size)
+    - Batch Accumulate:             1          (batch_accumulate)
+    - Total batch size:             7          (num_gpus * batch_size)
+    - Effective Batch size:         7          (num_gpus * batch_size * batch_accumulate)
+    - Iterations per epoch:         7          (len(train_loader))
+    - Gradient updates per epoch:   7          (len(train_loader) / batch_accumulate)
+
+[2023-11-29 15:24:00] INFO - super_gradients.training.sg_trainer.sg_trainer - Started training for 50 epochs (0/49)
+
+[2023-11-29 15:28:39] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints\yolonas_AI\RUN_20231129_152344_166402\ckpt_best.pth
+[2023-11-29 15:28:39] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.0021185376681387424
+[2023-11-29 15:34:41] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints\yolonas_AI\RUN_20231129_152344_166402\ckpt_best.pth
+[2023-11-29 15:34:41] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.09453551471233368
+[2023-11-29 15:40:34] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints\yolonas_AI\RUN_20231129_152344_166402\ckpt_best.pth
+[2023-11-29 15:40:34] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.10183262825012207
+[2023-11-29 16:07:45] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints\yolonas_AI\RUN_20231129_152344_166402\ckpt_best.pth
+[2023-11-29 16:07:45] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.12576065957546234
+[2023-11-29 16:11:38] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints\yolonas_AI\RUN_20231129_152344_166402\ckpt_best.pth
+[2023-11-29 16:11:38] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.16330325603485107
+[2023-11-29 16:19:26] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints\yolonas_AI\RUN_20231129_152344_166402\ckpt_best.pth
+[2023-11-29 16:19:26] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.1862720251083374
+[2023-11-29 16:23:50] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints\yolonas_AI\RUN_20231129_152344_166402\ckpt_best.pth
+[2023-11-29 16:23:50] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.2037975788116455
+[2023-11-29 16:36:37] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints\yolonas_AI\RUN_20231129_152344_166402\ckpt_best.pth
+[2023-11-29 16:36:37] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.21108388900756836
+[2023-11-29 16:50:03] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints\yolonas_AI\RUN_20231129_152344_166402\ckpt_best.pth
+[2023-11-29 16:50:03] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.23480930924415588
+[2023-11-29 16:55:39] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints\yolonas_AI\RUN_20231129_152344_166402\ckpt_best.pth
+[2023-11-29 16:55:39] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.24471750855445862
+[2023-11-29 17:12:55] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints\yolonas_AI\RUN_20231129_152344_166402\ckpt_best.pth
+[2023-11-29 17:12:55] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.2580472230911255
+[2023-11-29 17:23:54] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints\yolonas_AI\RUN_20231129_152344_166402\ckpt_best.pth
+[2023-11-29 17:23:54] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.26285746693611145
+[2023-11-29 17:40:17] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints\yolonas_AI\RUN_20231129_152344_166402\ckpt_best.pth
+[2023-11-29 17:40:17] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.2761746048927307
+[2023-11-29 17:52:11] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints\yolonas_AI\RUN_20231129_152344_166402\ckpt_best.pth
+[2023-11-29 17:52:11] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.2783326506614685
+[2023-11-29 17:56:22] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints\yolonas_AI\RUN_20231129_152344_166402\ckpt_best.pth
+[2023-11-29 17:56:22] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.29302144050598145
+[2023-11-29 18:00:17] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints\yolonas_AI\RUN_20231129_152344_166402\ckpt_best.pth
+[2023-11-29 18:00:17] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.31207743287086487
+[2023-11-29 18:04:16] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints\yolonas_AI\RUN_20231129_152344_166402\ckpt_best.pth
+[2023-11-29 18:04:16] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.3175782263278961
+[2023-11-29 19:21:02] INFO - super_gradients.training.sg_trainer.sg_trainer - RUNNING ADDITIONAL TEST ON THE AVERAGED MODEL...
+[2023-11-29 19:22:07] INFO - super_gradients.common.sg_loggers.base_sg_logger - [CLEANUP] - Successfully stopped system monitoring process
