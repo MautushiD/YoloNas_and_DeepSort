@@ -1,13 +1,20 @@
 # Autonomous Traffic Data Detection and Tracking: YOLO NAS, DEEP SORT, and SODA 10M
 
 <p align="center">
-  <img src="../test_video_input/test_2_small.mp4" alt="Input Video" width="400"/><br>
+  <video width="400" controls>
+    <source src="../test_video_input/test_2_small.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video><br>
   <em>Figure 1: Input Video</em>
 </p>
 <p align="center">
-  <img src="./output.mp4" alt="Output Video" width="400"/><br>
+  <video width="400" controls>
+    <source src="./output.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video><br>
   <em>Figure 2: Output Video</em>
 </p>
+
 
 
 ## Overview
