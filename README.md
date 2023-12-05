@@ -1,5 +1,14 @@
 # Autonomous Traffic Data Detection and Tracking: YOLO NAS, DEEP SORT, and SODA 10M
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/yourusername/your-repo/main/path/to/input_vid.gif" alt="Input Video" width="400"/><br>
+  <em>Figure 1: Input Video</em>
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/yourusername/your-repo/main/path/to/output_vid.gif" alt="Output Video" width="400"/><br>
+  <em>Figure 2: Output Video</em>
+</p>
+
 
 ## Overview
 This repository contains the implementation of 2D object detection and tracking on traffic data, specifically using the SODA 10M dataset. We demonstrate fine-tuning the YOLO NAS model for object detection and applying the Deep SORT algorithm for 2D tracking of traffic data.
