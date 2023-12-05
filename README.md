@@ -11,6 +11,7 @@
 
 
 
+
 ## Overview
 This repository contains the implementation of 2D object detection and tracking on traffic data, specifically using the SODA 10M dataset. We demonstrate fine-tuning the YOLO NAS model for object detection and applying the Deep SORT algorithm for 2D tracking of traffic data.
 
