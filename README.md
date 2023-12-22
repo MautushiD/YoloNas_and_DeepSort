@@ -102,6 +102,5 @@ This project utilizes the SODA 10M dataset, obtained from the SODA 2D official w
 ## Contributing
 Contributions to this project are welcome. Please submit a pull request or create an issue for any features or improvements.
 
-## License
-This project is open-sourced under the MIT License. See the LICENSE file for more details.
+
 
