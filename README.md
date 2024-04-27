@@ -1,4 +1,4 @@
-# Autonomous Traffic Data Detection and Tracking: YOLO NAS, DEEP SORT, and SODA 10M
+# Autonomous Traffic Data Detection and Tracking: YOLO NAS, DEEP SORT, and SODA 10M.
 
 <p align="center">
   <img src="./input_vid.gif" alt="Input Video" width="400"/><br>
